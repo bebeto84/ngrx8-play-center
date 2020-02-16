@@ -1,0 +1,24 @@
+.video-shop-movie {
+  .mat-card {
+    width: 150px;
+    margin: 20px 30px;
+    padding-top: 0;
+
+    &-actions {
+      padding: 0;
+    }
+    &-header {
+      .mat-card-title {
+        font-size: 1.1em;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      &-text {
+        overflow: hidden;
+        margin: 0 16px 0 0;
+      }
+    }
+  }
+}

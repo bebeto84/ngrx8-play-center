@@ -1,1 +1,30 @@
-<p>movie works!</p>
+<!-- <span>{{ movie.name }} </span>
+<img [src]="movie.imageUrl" />
+ -->
+<mat-card>
+  <mat-card-header>
+    <!--  <div mat-card-avatar class="example-header-image"></div> -->
+    <button
+      mat-icon-button
+      color="primary"
+      aria-label="Example icon-button with a heart icon"
+    >
+      <mat-icon>pan_tool</mat-icon>
+    </button>
+    <mat-card-title>{{ movie.name }}</mat-card-title>
+    <!--     <mat-card-subtitle>Dog Breed</mat-card-subtitle> -->
+  </mat-card-header>
+
+  <img
+    mat-card-image
+    [src]="movie.imageUrl"
+    alt="Photo of film {{ movie.id }}"
+  />
+  <!--  <mat-card-content>
+    <p>
+      The Shiba Inu is the smallest of the six original and distinct spitz
+      breeds of dog from Japan. A small, agile dog that copes very well with
+      mountainous terrain, the Shiba Inu was originally bred for hunting.
+    </p>
+  </mat-card-content> -->
+</mat-card>

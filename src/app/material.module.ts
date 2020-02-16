@@ -5,14 +5,15 @@ import { MatMenuModule } from "@angular/material/menu";
 import { MatListModule } from "@angular/material/list";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatSidenavModule } from "@angular/material/sidenav";
-
+import { MatCardModule } from "@angular/material/card";
 const MATERIAL_MODULES = [
   MatButtonModule,
   MatIconModule,
   MatMenuModule,
   MatListModule,
   MatToolbarModule,
-  MatSidenavModule
+  MatSidenavModule,
+  MatCardModule
 ];
 
 @NgModule({

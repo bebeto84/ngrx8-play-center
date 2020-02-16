@@ -1,38 +1,47 @@
 [
   {
     "id": "a_quiet_place",
+    "imageUrl": "assets/movies/img/a_quiet_place.jfif",
     "name": "A quiet place"
   },
   {
     "id": "a_star_is_born",
+    "imageUrl": "assets/movies/img/a_star_is_born.jfif",
     "name": "A star is born"
   },
   {
     "id": "annihilation",
+    "imageUrl": "assets/movies/img/annihilation.jfif",
     "name": "Annihilation"
   },
   {
     "id": "avengers_infinity_war",
+    "imageUrl": "assets/movies/img/avengers_infinity_war.jfif",
     "name": "Avengers: Infinite war"
   },
   {
     "id": "black_panther",
+    "imageUrl": "assets/movies/img/black_panther.jfif",
     "name": "Black Panther"
   },
   {
     "id": "deadpool_2",
+    "imageUrl": "assets/movies/img/deadpool_2.jfif",
     "name": "Deadpool 2"
   },
   {
     "id": "hereditary",
+    "imageUrl": "assets/movies/img/hereditary.jfif",
     "name": "Hereditary"
   },
   {
     "id": "incredibles_2",
+    "imageUrl": "assets/movies/img/incredibles_2.jfif",
     "name": "Incredibles 2"
   },
   {
     "id": "mission_impossible",
+    "imageUrl": "assets/movies/img/mission_impossible.jfif",
     "name": "Mission Impossible: Fallout"
   }
 ]

@@ -1,3 +1,4 @@
+import { MaterialModule } from "./../material.module";
 import { MovieComponent } from "./movie/movie.component";
 import { EffectsModule } from "@ngrx/effects";
 import { VideoShopComponent } from "./video-shop.component";
@@ -14,6 +15,7 @@ import { videoShopFeatureKey } from "./state";
 @NgModule({
   imports: [
     CommonModule,
+    MaterialModule,
     RouterModule.forChild(routes),
     StoreModule.forFeature(videoShopFeatureKey, fromVideoShop.videoShopReducer),
     EffectsModule.forFeature([VideoShopEffects])
