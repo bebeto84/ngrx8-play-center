@@ -8,11 +8,10 @@ import {
   HostBinding
 } from "@angular/core";
 import { Store, select } from "@ngrx/store";
-import { loadMovies } from "../actions/video-shop.actions";
+import { loadMovies } from "./sdk/video-shop.actions";
 import { Movie } from "../models/movie";
-import { filter } from "rxjs/operators";
-import { VideoShopState } from "./state";
-import { selectVideoShopMovies } from "./video-shop.selector";
+import { VideoShopState } from "./sdk/state";
+import { selectVideoShopMovies } from "./sdk/video-shop.selector";
 
 @Component({
   selector: "app-video-shop",

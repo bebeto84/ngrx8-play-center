@@ -1,4 +1,5 @@
 .video-shop-movie {
+
   .mat-card {
     width: 150px;
     margin: 20px 30px;
@@ -8,6 +9,11 @@
       padding: 0;
     }
     &-header {
+      .mat-icon-button {
+        &:hover {
+          transform: scale(1.3);
+        }
+      }
       .mat-card-title {
         font-size: 1.1em;
         text-overflow: ellipsis;

@@ -1,4 +1,4 @@
-import { Movie } from "./../models/movie";
+import { Movie } from "../../models/movie";
 import { createAction, props } from "@ngrx/store";
 
 export const loadMovies = createAction("[Video Shop] Load Movies");
@@ -8,7 +8,7 @@ export const loadMoviesSuccess = createAction(
 );
 export const keepMovie = createAction(
   "[Video Shop] Keep Movie",
-  props<{ movie: Movie }>()
+  (movie: Movie)=> ({movie})
 );
 export const removeMovie = createAction(
   "[Video Shop] Remove Movie",

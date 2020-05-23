@@ -1,5 +1,5 @@
-import { Movie } from "./../models/movie";
-import * as VideoShopActions from "./../actions/video-shop.actions";
+import { Movie } from "../../models/movie";
+import * as VideoShopActions from "./video-shop.actions";
 import { createReducer, on, createFeatureSelector } from "@ngrx/store";
 import { initialState, VideoShopState, videoShopFeatureKey } from "./state";
 

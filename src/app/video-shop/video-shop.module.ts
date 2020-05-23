@@ -8,9 +8,9 @@ import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
 import { routes } from "./video-shop.routes";
 
-import * as fromVideoShop from "./video-shop.reducer";
-import { VideoShopEffects } from "./video-shop.effects";
-import { videoShopFeatureKey } from "./state";
+import * as fromVideoShop from "./sdk/video-shop.reducer";
+import { VideoShopEffects } from "./sdk/video-shop.effects";
+import { videoShopFeatureKey } from "./sdk/state";
 
 @NgModule({
   imports: [
