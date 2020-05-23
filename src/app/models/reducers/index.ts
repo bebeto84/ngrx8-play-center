@@ -1,5 +1,5 @@
 import { MetaReducer } from "@ngrx/store";
-import { environment } from "../../environments/environment";
+import { environment } from "../../../environments/environment";
 
 export interface State {}
 
